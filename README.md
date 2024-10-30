@@ -7,6 +7,8 @@ proof, but you should show your work: at a minimum, show the recurrence relation
 you derive for the runtime of the code, and then how you solved the recurrence
 relation.
 
+Citations: To get more aquinted with this material I watched the following video https://www.bing.com/videos/search?view=detail&q=recurrence+analysis+explained&&mid=CFA473EE1A555E67A339CFA473EE1A555E67A339&mmscn=mtsc&&FORM=VRDGAR . 
+
 ```javascript
 function mystery(n) {
     if(n <= 1)
