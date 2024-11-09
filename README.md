@@ -32,5 +32,15 @@ function mystery(n) {
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
-T(n) = {1, n <=1, 3T(n/3)}
+T(n) = {
+1, n <=1
+3T(n/3), n > 1
+}
+T(n)   = 3T(n/3) + n^(5)
+T(n/3) = 3T(n/3/3) + (n/3)^(5)
+T(n)   = 3(3T(n/9) + (n^(5) / 243)) + n^(5)
+       = 9T(n/9) + 9n^(5)/243 + n^5
+T(n/9) = 3T(n/3/9) + (n/9) ^(5)
+T(n)   = 9(
+
 Since this function cuts in my 1/3, we start with T(n/3), this function also has 3 recursion calls so we would essentially call T(n/3) 3 times, 3*T(n). Then we must look at the for loops inside the else. Since each one multiplies n either by n*n, or n, we can count this as happening 5 times.
