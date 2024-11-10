@@ -9,6 +9,8 @@ relation.
 
 Citations: To get more aquinted with this material I watched the following video https://www.bing.com/videos/search?view=detail&q=recurrence+analysis+explained&&mid=CFA473EE1A555E67A339CFA473EE1A555E67A339&mmscn=mtsc&&FORM=VRDGAR . I also learned more on recurrence analysis through changes being requested on divide and conquer, and applied that knowledge. I also reviewed the slides on sorting.
 
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
 ```javascript
 function mystery(n) {
     if(n <= 1)
