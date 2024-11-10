@@ -36,9 +36,9 @@ T(n) = {
 1, n <=1
 3T(n/3) + n^(5), n > 1, since in this function there are 3 recursive calls, n going through the for loops is 5 times, and the data gets smaller by 1/3 with every recursive call.
 }
-T(n)   = $3T(n/3) + n^5$
-T(n/3) = 3T(n/3/3) + (n/3)^(5)
-T(n)   = 3(3T(n/9) + (n^(5) / 243)) + n^(5)
+$T(n)   = 3T(n/3) + n^5$
+$T(n/3) = 3T(n/3/3) + (n/3)^5$
+$T(n)   = 3(3T(n/9) + (n^5 / 243)) + n^5$
        = 9T(n/9) + n^(5)/81 + n^5
 T(n/9) = 3T(n/3/9) + (n/9)^(5)
 T(n)   = 9(3T(n/27) +(n/9) ^(5)) + (n^(5)/81) + n^(5)
