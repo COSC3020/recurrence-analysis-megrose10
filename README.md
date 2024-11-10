@@ -43,5 +43,5 @@ $T(n)   = 3(3T(n/9) + (n^5 / 243)) + n^5$
 $T(n/9) = 3T(n/3/9) + (n/9)^5$
 $T(n)   = 9(3T(n/27) +(n/9) ^5) + (n^5/81) + n^5$
        $= 27T(n/27) + (n^5/6561) + (n^5/81) + n^5$, since the middle values keep getting smaller, we can remove those from the equation.
-       = $(3^i)T(n/3^i) + n^5$, in this: 3^(i)T(n/3^(i)), the value in T will keep gettin closer to 0 resulting in this also being able to be removed.
+       = $(3^i)T(n/3^i) + n^5$, in this: 3^(i)T(n/3^(i)), the value in T will keep getting closer to 0 resulting in this also being able to be removed.
 So, $O(n^5$)
